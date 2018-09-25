@@ -1,8 +1,9 @@
 <?php
 
 use Vagovszky\Skeleton\Skeleton;
+use PHPUnit\Framework\TestCase;
 
-class SkeletonTest extends PHPUnit_Framework_TestCase {
+class SkeletonTest extends TestCase {
 
     private $skeleton;
 
