@@ -10,3 +10,10 @@ Installation
 
  - clone git repository
  - php composer.phar install
+
+Features 
+---------
+
+ - Configured for automatic build - Travis CI
+ - Codeclimate support
+ - Code coverage support - Coverall
