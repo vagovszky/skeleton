@@ -1,5 +1,5 @@
 {
-    "directories": ["src","config"],
+    "directories": ["src"],
     "files": ["run.php"],
     "finder": [
         {

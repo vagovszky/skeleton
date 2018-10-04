@@ -13,10 +13,18 @@ define('VERSION', '0.0.0');
 $dispatcher = new Dispatcher();
 $dispatcher->map('hello-world', new Skeleton());
 
+$routes = array(
+    array(
+        'name'  => 'hello-world', 
+        'description' => 'Prints hello world.',
+        'short_description' => 'Prints hello world.'
+    )
+);
+
 $application = new Application(
     'Skeleton',
     VERSION,
-    include __DIR__ . '/config/routes.php',
+    $routes,
     Console::getInstance(),
     $dispatcher
 );

@@ -10,6 +10,8 @@ before_script:
 
 script: 
   - composer test-coverage
+  - composer build-phar
 
-after_success:
+after_success:  
   - php vendor/bin/php-coveralls -v
+  - php skeleton.phar hello-world
