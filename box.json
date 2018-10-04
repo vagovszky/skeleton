@@ -1,0 +1,14 @@
+{
+    "directories": ["src","config"],
+    "files": ["run.php"],
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": ["tests"],
+            "in": "vendor"
+        }
+    ],
+    "main": "run.php",
+    "output": "skeleton.phar",
+    "stub": true
+}

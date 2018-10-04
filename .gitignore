@@ -3,3 +3,4 @@ composer.lock
 /nbproject/private/
 /nbproject/
 .idea
+skeleton.phar

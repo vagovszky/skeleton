@@ -9,7 +9,14 @@ Installation
 -------------
 
  - clone git repository
- - php composer.phar install
+ - `composer install`
+
+Usage
+-----
+
+ - `php run.php` - Run the app
+ - `composer run-script build-phar` - Build phar
+ - `composer run-script test` - Test the app
 
 Features 
 ---------
@@ -17,3 +24,5 @@ Features
  - Configured for automatic build - Travis CI
  - Codeclimate support
  - Code coverage support - Coverall
+ - Zend console support
+ - Can be boxed into phar

@@ -4,9 +4,12 @@ namespace Vagovszky\Skeleton;
 
 class Skeleton{
   
-  public function hasCheese($bool = true)
+  public function helloWorld()
   {
-    return $bool;
+    echo "Hello World!";
   }
-
+  
+  public function __invoke() {
+      $this->helloWorld();
+  }
 }
